@@ -1,0 +1,41 @@
+body{
+  padding-top: 5%;
+  background-image: url('bg.jpg');
+  background-size: cover;
+}
+
+.setting-value {
+	text-align: center;
+	font-weight: bold;
+}
+
+img#start-image {
+	position: relative;
+	left: -10000px;
+  top: -10000px;
+  width: fit-content;
+  height: fit-content;
+  object-fit: cover;
+  
+}
+
+#meme{
+  border:1px solid;
+  
+  width: fit-content;
+  height: fit-content;
+  object-fit: cover;
+  
+}
+
+.card{
+  border:2px solid !important;
+}
+
+.card-header{
+  border-bottom: 2px solid !important;
+}
+
+label{
+  font-weight: bold;
+}
